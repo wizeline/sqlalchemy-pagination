@@ -1,6 +1,6 @@
-# SqlAlchemy-Paginate
+# sqlalchemy-pagination
 
-[![Build Status](https://travis-ci.org/wizeline/sqlalchemy-paginate.svg)](https://travis-ci.org/wizeline/sqlalchemy-paginate)
+[![Build Status](https://travis-ci.org/wizeline/sqlalchemy-pagination.svg)](https://travis-ci.org/wizeline/sqlalchemy-pagination)
 
 
 ## Contents
@@ -24,7 +24,7 @@ A small utility to paginate SqlAlchemy queries..
 Just do:
 
 ```
-$ pip install git+ssh://git@github.com/wizeline/sqlalchemy-paginate.git
+$ pip install git+ssh://git@github.com/wizeline/sqlalchemy-pagination.git
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ $ pip install git+ssh://git@github.com/wizeline/sqlalchemy-paginate.git
 Just import the paginate method and call it with the query, the current page and the page size
 
 ```
-from sqlalchemy_paginate import paginate
+from sqlalchemy_pagination import paginate
 
 page = paginate(session.query(User), 1, 25)
 ```
@@ -69,10 +69,10 @@ Then reset your terminal.
 Clone this respository and create the virtual environment:
 
 ```
-$ git clone https://github.com/wizeline/sqlalchemy-paginate
-$ cd sqlalchemy-paginate
-$ mkvirtualenv sqlalchemy-paginate
-$ workon sqlalchemy-paginate
+$ git clone https://github.com/wizeline/sqlalchemy-pagination
+$ cd sqlalchemy-pagination
+$ mkvirtualenv sqlalchemy-pagination
+$ workon sqlalchemy-pagination
 $ pip install -r requirements-dev.txt
 $ pip install tox
 ```

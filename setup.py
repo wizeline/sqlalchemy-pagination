@@ -9,14 +9,14 @@ def requirements(filename):
 
 
 def get_version():
-    with open('sqlalchemy_paginate/__init__.py', 'r') as f:
+    with open('sqlalchemy_pagination/__init__.py', 'r') as f:
         version_regex = r'^__version__\s*=\s*[\'"](.+)[\'"]'
         return re.search(version_regex, f.read(), re.MULTILINE).group(1)
 
 setup(
-    name='sqlalchemy-paginate',
+    name='sqlalchemy-pagination',
     version=get_version(),
-    url='https://github.com/wizeline/sqlalchemy-paginate',
+    url='https://github.com/wizeline/sqlalchemy-pagination',
     author='Wizeline',
     author_email='engineering@wizeline.com',
     description='A small utility to paginate SqlAlchemy queries.',

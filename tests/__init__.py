@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 from factory import Faker
 from factory.alchemy import SQLAlchemyModelFactory
 
-from sqlalchemy_paginate import paginate
+from sqlalchemy_pagination import paginate
 
 
 Base = declarative_base()
