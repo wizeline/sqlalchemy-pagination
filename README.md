@@ -1,6 +1,6 @@
 # SqlAlchemy-Paginate
 
-[![Build Status](https://travis-ci.org/wizeline/sqlalchemy-paginate.svg&branch=master)](https://travis-ci.com/wizeline/sqlalchemy-paginate)
+[![Build Status](https://travis-ci.org/wizeline/sqlalchemy-paginate.svg)](https://travis-ci.org/wizeline/sqlalchemy-paginate)
 
 
 ## Contents
