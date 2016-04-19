@@ -14,7 +14,7 @@ def get_version():
         return re.search(version_regex, f.read(), re.MULTILINE).group(1)
 
 setup(
-    name='SqlAlchemy-Paginate',
+    name='sqlalchemy-paginate',
     version=get_version(),
     url='https://github.com/wizeline/sqlalchemy-paginate',
     author='Wizeline',
@@ -23,15 +23,13 @@ setup(
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     zip_safe=False,
+    keywords=['sqlalchemy', 'pagination', 'paginate'],
     classifiers=[
-        'Development Status :: 1 - Planning',
-        'Environment :: Other Environment',
+        'Development Status :: 4 - Beta',
+        'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'Operating System :: POSIX :: Linux',
-        'Operating System :: MacOS :: MacOS X',
-        'Programming Language :: Python 3',
-        'Topic :: Utilities'
+        'Programming Language :: Python :: 3'
     ],
     tests_require=requirements('requirements-dev.txt'),
     install_requires=requirements('requirements.txt'),
