@@ -71,7 +71,7 @@ Clone this respository and create the virtual environment:
 ```
 $ git clone https://github.com/wizeline/sqlalchemy-pagination
 $ cd sqlalchemy-pagination
-$ mkvirtualenv sqlalchemy-pagination
+$ mkvirtualenv -p python3 sqlalchemy-pagination
 $ workon sqlalchemy-pagination
 $ pip install -r requirements-dev.txt
 $ pip install tox
